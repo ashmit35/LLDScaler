@@ -5,7 +5,7 @@ public class Main {
 
     // Method to perform division and handle divide by zero exception
     public static int divide(int numerator, int denominator) {
-        //code here
+        //write your code here
         return 0;
     }
 

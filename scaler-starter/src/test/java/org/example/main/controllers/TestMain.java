@@ -1,7 +1,10 @@
 package org.example.main.controllers;
+
 import org.example.Main;
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
+
 public class TestMain {
     // Unit tests
     @Test
