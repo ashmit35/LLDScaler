@@ -1,7 +1,7 @@
 package org.example;
 
 
-public class Main {
+public class DivideByZeroException {
 
     // Method to perform division and handle divide by zero exception
     public static int divide(int numerator, int denominator) {
