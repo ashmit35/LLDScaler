@@ -1,7 +1,7 @@
 # Distinct Numbers(Assignment)
 ## Problem Statement
 
-You are given a list of integers, and you need use stream and lambdas to return all the distinct numbers `(distinct())`
+You are given a list of integers, and you need to use streams and lambdas to return all the distinct numbers `(distinct())`
 that are present in the given list.
 
 
