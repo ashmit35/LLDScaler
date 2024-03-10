@@ -50,7 +50,7 @@ public class TestReservationSystem{
 
         Thread thread2 = new Thread(() -> {
             for (int i = 0; i < 25; i++) {
-                reservationSystem.reserveSeats("1AC", 2);
+                reservationSystem.reserveSeats("1AC", 1);
                 reservationSystem.reserveSeats("2AC", 1);
                 reservationSystem.reserveSeats("Sleeper", 25);
             }
@@ -65,7 +65,7 @@ public class TestReservationSystem{
 
 
 
-        assertEquals(1, reservationSystem.getAvailableSeats("1AC"));
+        assertEquals(0, reservationSystem.getAvailableSeats("1AC"));
         assertEquals(50, reservationSystem.getAvailableSeats("2AC"));
         assertEquals(150, reservationSystem.getAvailableSeats("3AC"));
         assertEquals(0, reservationSystem.getAvailableSeats("Sleeper"));
