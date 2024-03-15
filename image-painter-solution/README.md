@@ -1,6 +1,7 @@
 # Image Painter
-Implement a Java program that uses concurrency to efficiently paint different quadrants of an image with 
-varying colors.
+Implement a Java program that simulates image re-painting using 4 threads. The algorithm for painting is described as 
+under but your task is given an image, divide the image into 4 quadrants and let each thread paint one quadrant of the 
+image. The concurrent execution ensures image is painted efficiently.
 
 ## Problem Statement:
 You are provided a function `paintImage`. This function is designed to paint a square image, represented as a 2D 
